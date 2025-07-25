@@ -1,15 +1,15 @@
 // webpack plugins
 const SplitChunksPlugin = require('webpack/lib/optimize/SplitChunksPlugin');
+const path = require('path');
 
 module.exports = {
   entry: {
-    app: ['./src/bootstrap.js'],
+    app: ['./src/index.js'],
     vendor: './src/vendor.js',
   },
 
   resolve: {
-    extensions: ['.js', '.scss'],
-
+    extensions: ['.js', '.jsx', '.scss'],
     modules: ['node_modules'],
   },
 
