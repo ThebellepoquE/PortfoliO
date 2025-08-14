@@ -4,7 +4,7 @@ const path = require('path');
 
 module.exports = {
   entry: {
-    app: ['./src/index.js'],
+    app: ['./src/bootstrap.js'], // ← CAMBIAR de index.js a bootstrap.js
     vendor: './src/vendor.js',
   },
 
