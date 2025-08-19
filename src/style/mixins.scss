@@ -20,7 +20,7 @@
 
 @mixin input-element {
   input {
-    font-family: "Titillium Web", sans-serif;
+    font-family: "libertinus sans", sans-serif;
     color: $charcoal;
     padding: 5px 0px;
     width: 100%;
@@ -38,4 +38,9 @@
       border-bottom: 1px solid $dark-teal;
     }
   }
+}
+
+@mixin base-grid {
+  display: grid;
+  grid-gap: 21px;
 }
