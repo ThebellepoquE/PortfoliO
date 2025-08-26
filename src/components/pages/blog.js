@@ -19,15 +19,18 @@ class Blog extends Component {
 
     this.getBlogItems = this.getBlogItems.bind(this);
     this.onScroll = this.onScroll.bind(this);
+    window.addEventListener("scroll", this.onScroll, false);
     this.handleNewBlogClick = this.handleNewBlogClick.bind(this);
     this.handleModalClose = this.handleModalClose.bind(this);
-    this.handleSuccessfullNewBlogSubmission = this.handleSuccessfullNewBlogSubmission.bind(this);
+    this.handleSuccessfulNewBlogSubmission = this.handleSuccessfulNewBlogSubmission.bind(
+      this
+    );
   }
 
-  handleSuccessfullNewBlogSubmission(blog) {
+  handleSuccessfulNewBlogSubmission(blog) {
     this.setState({
       blogModalIsOpen: false,
-      blogItems: [blog].concat(this.state.blogItems),
+      blogItems: [blog].concat(this.state.blogItems)
     });
   }
 
@@ -60,15 +63,14 @@ class Blog extends Component {
   }
 
   getBlogItems() {
-    const nextPage = this.state.currentPage + 1; // ← Calcular antes
-
     this.setState({
-      currentPage: nextPage
+      currentPage: this.state.currentPage + 1
     });
 
     axios
       .get(
-        `https://ionerodriguez.devcamp.space/portfolio/portfolio_blogs?page=${nextPage}`, // ← Usar variable
+        `https://ionerodriguez.devcamp.space/portfolio/portfolio_blogs?page=${this
+          .state.currentPage}`,
         {
           withCredentials: true
         }
@@ -86,9 +88,8 @@ class Blog extends Component {
       });
   }
 
-  componentDidMount() {
+  componentWillMount() {
     this.getBlogItems();
-    window.addEventListener("scroll", this.onScroll, false); // ← Mover aquí
   }
 
   componentWillUnmount() {
@@ -103,14 +104,20 @@ class Blog extends Component {
     return (
       <div className="blog-container">
         <BlogModal
-          handleSuccessfulNewBlogSubmission={this.handleSuccessfullNewBlogSubmission}
+          handleSuccessfulNewBlogSubmission={
+            this.handleSuccessfulNewBlogSubmission
+          }
           handleModalClose={this.handleModalClose}
           modalIsOpen={this.state.blogModalIsOpen}
         />
 
-        <div className="new-blog-link">
-          <a onClick={this.handleNewBlogClick}>Open Modal!</a>
-        </div>
+        {this.props.loggedInStatus === "LOGGED_IN" ? (
+          <div className="new-blog-link">
+            <a onClick={this.handleNewBlogClick}>
+              <FontAwesomeIcon icon="plus-circle" />
+            </a>
+          </div>
+        ) : null}
 
         <div className="content-container">{blogRecords}</div>
 
