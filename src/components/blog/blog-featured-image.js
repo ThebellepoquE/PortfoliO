@@ -1,8 +1,8 @@
-import React from "react";
+import React from 'react';
 
 const BlogFeaturedImage = props => {
   if (!props.img) {
-      return null;
+    return null;
   }
 
   return (
