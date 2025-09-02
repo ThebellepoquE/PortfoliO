@@ -1,116 +1,4 @@
-# 🏰 Ione Rodríguez Portfolio - React SPA
-
-**Professional Full Stack Portfolio Application** showcasing the work and skills of **Ione Rodríguez Uraga** 👑
-
-[![React](https://img.shields.io/badge/React-16.13.1-blue.svg)](https://reactjs.org/)
-[![Node](https://img.shields.io/badge/Node.js-14.21.0+-green.svg)](https://nodejs.org/)
-[![Redux](https://img.shields.io/badge/Redux-4.0.5-purple.svg)](https://redux.js.org/)
-[![Webpack](https://img.shields.io/badge/Webpack-4.20.2-orange.svg)](https://webpack.js.org/)
-[![Sass](https://img.shields.io/badge/Sass-Latest-pink.svg)](https://sass-lang.com/)
-[![License](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
-[![Portfolio](https://img.shields.io/badge/Status-Live-brightgreen.svg)](https://ionerodriguez.devcamp.space)
-
-> 🎯 **Modern React SPA** with advanced features and professional architecture
-
----
-
-## 🌟 **What This Portfolio Does**
-
-- 🎨 **Professional Portfolio** - Showcasing projects and skills
-- 📝 **Personal Blog Platform** - With infinite scroll and rich content
-- ⚙️ **Admin Dashboard** - Complete CRUD operations for content management
-- 🔐 **Authentication System** - Secure login and user management
-- 📱 **Responsive Design** - Mobile-first approach
-
----
-
-## 🚀 **Quick Start**
-
-```powershell
-# Clone and install
-git clone https://github.com/ThebellepoquE/thebellepoque-portfolio.git
-cd PORTFOLIO/THEBELLEPOQUE
-npm install
-
-# Start development
-npm start
-```
-
-🌐 **Open:** http://localhost:3000
-
-**For production:** `npm run prod`
-
----
-
-## 🛠️ **Built With**
-
-| Technology          | Version | What It Does       |
-| ------------------- | ------- | ------------------ |
-| ⚛️ **React**        | 16.13.1 | Component-based UI |
-| 🧭 **React Router** | 5.1.2   | Page navigation    |
-| 🗃️ **Redux**        | 4.0.5   | State management   |
-| 📦 **Webpack**      | 4.20.2  | Build system       |
-| 🎨 **SCSS**         | Latest  | Advanced styling   |
-| 📡 **Axios**        | 0.21.1  | API communication  |
-| 🖼️ **Dropzone**     | 5.9.3   | Image uploads      |
-| 🎭 **React Modal**  | 3.14.4  | Modal system       |
-
----
-
-## ✨ **Key Features**
-
-### **📝 Blog System**
-
-- **Infinite scroll** with smart pagination
-- **Admin-only content creation** via secure modals
-- **Rich text editing** with Draft.js integration
-- **Authentication-protected** publishing
-
-### **🎨 Portfolio Management**
-
-- **Dynamic project display** with filtering
-- **Admin CRUD operations** for all content
-- **Image upload system** with drag & drop
-- **Real-time updates** without page refresh
-
-### **🔐 Security & Auth**
-
-- **JWT authentication** with persistent sessions
-- **Protected admin routes** and conditional rendering
-- **Secure API integration** with DevCamp Space
-
-### **🎯 Performance**
-
-- **Webpack optimization** for fast loading
-- **Component lifecycle management** with proper cleanup
-- **Mobile-first responsive** design
-- **Professional SCSS architecture**
-
----
-
-## 📁 **Project Structure**
-
-```
-THEBELLEPOQUE/
-├── src/
-│   ├── components/
-│   │   ├── app.js                     # Root component
-│   │   ├── navigation/                # Navigation system
-│   │   ├── portfolio/                 # Portfolio CRUD
-│   │   ├── blog/                      # Blog with infinite scroll
-│   │   ├── auth/                      # Login system
-│   │   └── pages/                     # Main pages
-│   ├── style/                         # SCSS architecture
-│   └── helpers/                       # Utility functions
-├── webpack/                           # Build configuration
-└── static/                            # Assets & build output
-```
-
----
-
-## 🌐 **Live Demo**
-
-**Portfolio:** https://ionerodriguez.devcamp.space
+🚧 Portfolio:\*\* Currently in development 
 
 **API Integration:** DevCamp Space API for portfolio data, blog management, and authentication
 
@@ -133,6 +21,20 @@ npm install
 
 ---
 
+## 🌐 **Demo**
+
+**🖥️ Local Development:**
+
+```powershell
+git clone [your-repo-url]
+cd THEBELLEPOQUE
+npm install && npm start
+```
+
+**Access:** http://localhost:3000
+
+---
+
 ## 👩‍💻 **About**
 
 ### **Ione Rodríguez Uraga**
@@ -146,7 +48,54 @@ npm install
 
 ---
 
-## 🙏 **Thanks**
+## 🙏 **Acknowledgments**
+
+### **💙 Massive Thanks to Open Source Community**
+
+This project wouldn't exist without the **incredible open source ecosystem**. Every package, library, and tool used here represents **countless hours of free contribution** from developers worldwide:
+
+#### **🚀 Core Technologies:**
+
+- **Facebook & Meta** - For React and the entire ecosystem
+- **Webpack team** - For the amazing build system
+- **Sass team** - For powerful CSS preprocessing
+- **Redux maintainers** - For state management excellence
+
+#### **📦 Essential Libraries:**
+
+- **Axios contributors** - For seamless HTTP requests
+- **React Router team** - For navigation solutions
+- **Draft.js developers** - For rich text editing
+- **Dropzone.js creators** - For file upload functionality
+- **All npm package maintainers** - For solving problems we didn't know we had
+
+#### **🛠️ Development Tools:**
+
+- **VS Code team** - For the best development experience
+- **Git & GitHub** - For version control and collaboration
+- **Node.js contributors** - For JavaScript everywhere
+- **Chrome DevTools team** - For debugging superpowers
+
+#### **🌟 Special Recognition:**
+
+**To every developer who:**
+
+- 📚 **Writes documentation** instead of just code
+- 🐛 **Files bug reports** to help others
+- 🔧 **Contributes patches** without expecting anything back
+- 💡 **Answers questions** on Stack Overflow
+- 🎓 **Creates tutorials** and educational content
+- ⭐ **Maintains projects** used by millions
+
+### **🌍 Open Source = The Foundation of Modern Web Development**
+
+**Every `npm install` is a gift from the community.** This portfolio stands on the shoulders of thousands of generous developers who chose to **share instead of hoard** their knowledge.
+
+**THANK YOU** for making learning, building, and creating accessible to everyone! 🙏✨
+
+---
+
+### **🎓 Educational Thanks**
 
 - **DevCamp Bootcamp** - For the comprehensive React curriculum
 - **Jordan Hudgens** - For expert mentorship and instruction
@@ -158,11 +107,13 @@ npm install
 
 MIT License - See [LICENSE](LICENSE) file for details
 
+**Continuing the spirit of open source** - Feel free to learn from, fork, and improve this code! 🚀
+
 ---
 
 ⭐ **Star this repo if it helped you!** ⭐
 
-🚀 **Built with React and lots of ☕**
+🚀 **Built with React and lots of 💙**
 
 ---
 
