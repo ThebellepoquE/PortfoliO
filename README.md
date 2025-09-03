@@ -1,120 +1,113 @@
-✅ **🚧 Portfolio:** Currently in development
+# 💼 **Ione Rodriguez Uraga** - Full Stack Developer Portfolio
 
-**API Integration:** DevCamp Space API for portfolio data, blog management, and authentication
+🌟 **Modern React Portfolio** with dynamic content management and professional showcase
 
----
+## 🌐 **Live Demo**
 
-## 🔧 **Development**
+**🚀 Portfolio:** https://ione-fullstack.netlify.app
 
-```powershell
-# Development server
+**🎨 Features:**
+
+- Dynamic Power color palette
+- Responsive React SPA with modern UI/UX
+- Full-stack blog management system
+- Portfolio showcase with filtering capabilities
+- Professional authentication system
+
+## 📧 **Contact**
+
+- **Email:** thebellepoque@gmail.com
+- **GitHub:** [@ThebellepoquE](https://github.com/ThebellepoquE)
+
+## 🛠️ **Tech Stack**
+
+**Frontend:**
+
+- React 16.8+ with Hooks
+- SCSS with custom design system
+- Webpack 4 build optimization
+- Responsive CSS Grid & Flexbox
+
+**Backend Integration:**
+
+- DevCamp Space API
+- Axios for HTTP requests
+- Authentication with secure sessions
+
+**Development:**
+
+- ES6+ JavaScript
+- Git version control
+- Netlify deployment with CI/CD
+
+## 🚀 **Getting Started**
+
+```bash
+# Clone repository
+git clone https://github.com/ThebellepoquE/THEBELLEPOQUE
+cd THEBELLEPOQUE
+
+# Install dependencies
+npm install
+
+# Start development server
 npm start
 
-# Production build
-npm run prod
-
-# Clean install (if issues)
-Remove-Item -Recurse -Force node_modules
-npm cache clean --force
-npm install
-```
-
----
-
-## 🌐 **Demo**
-
-**🖥️ Local Development:**
-
-```powershell
-git clone [your-repo-url]
-cd THEBELLEPOQUE
-npm install && npm start
+# Build for production
+npm run build
 ```
 
 **Access:** http://localhost:3000
 
----
+## ✨ **Key Features**
 
-## 👩‍💻 **About**
-
-### **Ione Rodríguez Uraga**
-
-🌟 **Full Stack Developer** passionate about React and modern web development
-
-- 📧 **Email:** thebellepoque@gmail.com
-- 🐙 **GitHub:** [@ThebellepoquE](https://github.com/ThebellepoquE)
-
-**Skills:** React, JavaScript ES6+, SCSS, Node.js, RESTful APIs, Git, Webpack
-
----
+- 📱 **Fully Responsive** - Works on all devices
+- 🎨 **Custom Design System** - Unique DYNAMIC POWER palette
+- 📝 **Blog Management** - Create, edit, and delete posts
+- 🔐 **Authentication** - Secure login system
+- 🎯 **Portfolio Filter** - Dynamic project filtering
+- 🚀 **Optimized Build** - Fast loading and performance
 
 ## 🙏 **Acknowledgments**
 
-### **💙 Massive Thanks to Open Source Community**
+### **💙 Open Source Community**
 
-This project wouldn't exist without the **incredible open source ecosystem**. Every package, library, and tool used here represents **countless hours of free contribution** from developers worldwide:
+**This project wouldn't exist without the incredible open source ecosystem.** Every package, library, and tool used here represents countless hours of free contribution from developers worldwide.
 
 #### **🚀 Core Technologies:**
 
-- **Facebook & Meta** - For React and the entire ecosystem
-- **Webpack team** - For the amazing build system
-- **Sass team** - For powerful CSS preprocessing
-- **Redux maintainers** - For state management excellence
-
-#### **📦 Essential Libraries:**
-
-- **Axios contributors** - For seamless HTTP requests
-- **React Router team** - For navigation solutions
-- **Draft.js developers** - For rich text editing
-- **Dropzone.js creators** - For file upload functionality
-- **All npm package maintainers** - For solving problems we didn't know we had
-
-#### **🛠️ Development Tools:**
-
-- **VS Code team** - For the best development experience
-- **Git & GitHub** - For version control and collaboration
-- **Node.js contributors** - For JavaScript everywhere
-- **Chrome DevTools team** - For debugging superpowers
+- **React team** - For the amazing component library
+- **Webpack contributors** - For the powerful build system
+- **Sass team** - For CSS preprocessing excellence
+- **Node.js maintainers** - For JavaScript runtime
 
 #### **🌟 Special Recognition:**
 
-**To every developer who:**
+To every developer who writes documentation, files bug reports, contributes patches, and shares knowledge freely. **THANK YOU** for making learning and building accessible to everyone! 🙏✨
 
-- 📚 **Writes documentation** instead of just code
-- 🐛 **Files bug reports** to help others
-- 🔧 **Contributes patches** without expecting anything back
-- 💡 **Answers questions** on Stack Overflow
-- 🎓 **Creates tutorials** and educational content
-- ⭐ **Maintains projects** used by millions
+#### **🎓 Educational Thanks:**
 
-### **🌍 Open Source = The Foundation of Modern Web Development**
+- **DevCamp Bootcamp** - For comprehensive React curriculum
+- **Jordan Hudgens** - For expert mentorship
+- **DevCamp Space** - For API infrastructure
 
-**Every `npm install` is a gift from the community.** This portfolio stands on the shoulders of thousands of generous developers who chose to **share instead of hoard** their knowledge.
+#### **🔧 Deployment Heroes:**
 
-**THANK YOU** for making learning, building, and creating accessible to everyone! 🙏✨
-
----
-
-### **🎓 Educational Thanks**
-
-- **DevCamp Bootcamp** - For the comprehensive React curriculum
-- **Jordan Hudgens** - For expert mentorship and instruction
-- **DevCamp Space** - For API infrastructure and learning platform
-
----
+- **OpenSSL Legacy Provider** - For crypto compatibility
+- **Netlify team** - For seamless deployment
+- **Stack Overflow contributors** - For troubleshooting solutions
 
 ## 📄 **License**
 
-MIT License - See [LICENSE](LICENSE) file for details
+MIT License - Feel free to learn from, fork, and improve this code!
 
-**Continuing the spirit of open source** - Feel free to learn from, fork, and improve this code! 🚀
+## ⭐ **Support**
 
----
-
-⭐ **Star this repo if it helped you!** ⭐
-
-🚀 **Built with React and lots of 💙**
+If this project helped you, please star the repository!
 
 ---
 
-_Last updated: December 2024_
+**🌐 Live Portfolio:** https://ione-fullstack.netlify.app
+**📧 Contact:** thebellepoque@gmail.com
+
+_Built with React and lots of 💙_
