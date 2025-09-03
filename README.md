@@ -1,4 +1,4 @@
-🚧 Portfolio:\*\* Currently in development 
+✅ **🚧 Portfolio:** Currently in development
 
 **API Integration:** DevCamp Space API for portfolio data, blog management, and authentication
 
